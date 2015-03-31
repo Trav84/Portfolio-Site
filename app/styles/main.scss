@@ -1,7 +1,7 @@
 @import 'reset';
 
 $primary-color: #982438;
-$secondary-color: #680148;
+$secondary-color: #7DB4B5;
 $tertiary-color: #0D0C1C;
 
 body, html {
@@ -54,8 +54,16 @@ header {
 	-webkit-transform: skew(-30deg);
     -moz-transform: skew(-30deg);
 	-o-transform: skew(-30deg);
-	background-color: $primary-color;
+	background-color: $tertiary-color;
 	color: white;
+}
+
+.parallelogram:first-child:hover {
+	background-color: $primary-color;
+}
+
+.parallelogram:last-child:hover {
+	background-color: $secondary-color;
 }
 
 .bio-icon, .work-icon {
